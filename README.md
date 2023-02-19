@@ -14,6 +14,6 @@ Functions:
 5. `UploadAsFileAsync(string dirPath, string fileName, Stream content)`: Upload file with Stream.
 6. `FileExistsAsync(string dirPath, string fileName)`: Check if file exists
 7. `DeleteFileAsync(string dirPath, string fileName)`: Delete file.
-8. `CreateFolderAsync(string dirPath, bool isRecursive = false)`: Create Folder on specific path.
+8. `CreateFolderAsync(string dirPath, bool isRecursive = false)`: Create Folder on specific path. If isRecursive = true, it will create folder by path hierarchy.
 9. `FolderExistsAsync(string dirPath)`: Check if folder exists.
-10. `DeleteFolderAsync(string dirPath, bool isRecursive = false)`: Delete specific folder.
+10. `DeleteFolderAsync(string dirPath, bool isRecursive = false)`: Delete specific folder. If isRecursive = true, it will delete folder by path hierarchy.
